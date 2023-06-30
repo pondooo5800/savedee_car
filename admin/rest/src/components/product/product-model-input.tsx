@@ -15,7 +15,7 @@ const ProductModelInput = ({ control, error }: Props) => {
   const { t } = useTranslation();
   const { locale } = useRouter();
   const { models, loading } = useModelsQuery({
-    limit: 200,
+    limit: 500,
     language: locale,
   });
   return (
